@@ -6,9 +6,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="content-full">
-    <div class="content-half" id="left">Left Side</div>
-    <div class="content-half" id="right">Right Side</div>
+  <div class="container" style="--dir: row">
+    <div class="content-half" style="--dir: column"> 
+      <div class="content-quater">upper left</div>
+      <div class="content-quater">lower left</div>
+    
+    </div>
+    <div class="content-half" style="--dir: column"> 
+      <div class="content-quater">upper right</div>
+      <div class="btn">lower right button</div>
+    </div>
   </div>
 </body>
 </html>
