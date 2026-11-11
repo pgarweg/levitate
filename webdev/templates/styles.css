@@ -1,11 +1,25 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 2rem;
-  background-color: #f0f0f0;
-  text-align: center;
+/* Full-screen container */
+.content-full {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-button {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
+/* Half-size sidebars */
+.content-half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
 }
+
+/* Optional distinct colors */
+#left { background: #4a90e2; }
+#right { background: #50e3c2; }
+
+/* Reset body margin */
+body { margin: 0; }
